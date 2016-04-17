@@ -1,0 +1,33 @@
+
+/* Top menu */
+
+
+.widget_nav_menu ul {
+	list-style:none;
+}
+
+.widget_nav_menu ul li {
+	text-transform:uppercase;
+}
+
+.widget_nav_menu ul li a {
+	color:white;
+	font-size:13pt;
+	display:block;
+	padding: 0 20px;
+	text-decoration:none;
+  text-align: center;
+	border-image-source:url("../../images/border-mini-green.png");
+  border-image-slice: 50% 15;
+  border-image-width: 14px;
+  border-image-outset: 0 14px;
+  border-image-repeat: round;
+  margin:5px;
+  position: relative;
+}
+
+.widget_nav_menu ul li a:hover {
+	color:black;
+	border-image-source:url("../../images/border-mini-green.png");
+	z-index: 999;
+}

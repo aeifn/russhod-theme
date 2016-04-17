@@ -1,0 +1,42 @@
+
+/* Top menu */
+
+
+.site-header-menu{
+	background:#004c18;
+}
+
+.site-header-menu ul {
+//	line-height:40px;
+	font:times, georgia;
+	list-style:none;
+	text-align:center;
+}
+
+.site-header-menu ul li {
+	display:inline;
+	text-transform:uppercase;
+}
+
+.site-header-menu ul li a {
+	color:white;
+	font-size:13pt;
+	display:inline-block;
+	//height:28px;
+	//line-height:22px;
+	padding: 0 20px;
+	text-decoration:none;
+	border-image-source:url("../images/menu-bg-28.png");
+border-image-slice: 50% 15;
+border-image-width: 14px;
+border-image-outset: 0 14px;
+border-image-repeat: round;
+margin:5px;
+position: relative;
+}
+
+.site-header-menu ul li a:hover {
+	color:black;
+	border-image-source:url("../images/menu-bg-sel-28.png");
+	z-index: 999;
+}
