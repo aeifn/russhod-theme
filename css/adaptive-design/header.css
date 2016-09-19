@@ -1,0 +1,38 @@
+/* Adaptive deisgn for HEADER */
+
+/* Logo - left */
+/* We construct on the top of wordpress theme
+* TewntySixteen, just modify it by CSS.
+* Our strategy - not to change anything in templates.
+*/
+
+
+
+
+@media screen and (min-width:1020px) {
+	/* Central sitename and slogan
+	* here we css-modify default elements too
+	*/
+
+	.site-branding .site-title a {
+		background-position: 40px 20px;
+	}
+	p.site-description{
+		display:block;
+		margin-left:-320px;
+		top:10px;
+		left:50%;
+	}
+}
+		
+@media screen and (max-width:1020px) {
+	.site-branding {
+		background-image: none !important;
+	}
+	p.site-description {
+		display: none;
+	}
+	.site-branding .site-title a {
+		background-position:center 20px;
+	}
+}

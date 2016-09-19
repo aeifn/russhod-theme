@@ -1,55 +1,48 @@
-
-
 /* POSTS */
 
 /* Hide unneccesary elements */
 /* ============================================== */
-
+/*
 .skip-link {
 	display:none;
 }
+*/
 
 /* Hide unwanted post data in wp-loop */
-.cat-links {
+
+.post .cat-links {
 	display: none;
 }
 
-.tags-links {
+.post .tags-links {
 	display: none;
 }
 
-.comments-link {
-	display: none;
-}
-
-.edit-link {
+.post .comments-link {
 	display: none;
 }
 
 
-.post {
-	padding-top:20px;
+.post .entry-footer .author {
+	display:none;
 }
 
-.entry-header a {
-	color:#000;
-	text-decoration:none;
-}
-
-.entry-content{
+.post .entry-content{
 	margin-top:10px;
 }
 
-.entry-footer {
+.post .entry-footer {
 	margin-top:10px;
 	font-size:.8em;
 	color: #666;
 }
 
-.entry-footer a {
+.post .entry-footer a {
 	color: #666;
 }
 
-.entry-footer .author {
-	display:none;
+
+
+.post .more-link {
+    display:block;
 }

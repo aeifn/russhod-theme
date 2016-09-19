@@ -1,0 +1,37 @@
+@import url(./adaptive-design/main.css);
+
+/* Common styles */
+@import url('common.css');
+
+/* Only header styles */
+@import 'header.css';
+@import "main-navigation.css";
+
+/* Only content styles */
+@import url('layout.css');
+@import url('primary.css');
+
+@import url('article.css');
+@import url('post.css');
+
+/* Only footer styles */
+@import url('tricks.css');
+
+
+@import url(widgets/widgets.css);
+
+/* Areas */
+@import url('areas/main.css');
+@import url('areas/comments.css');
+@import url(areas/content-bottom-widgets.css);
+
+@import 'post-navigation.css';
+@import 'calendar.css';
+@import 'navigation.css';
+@import 'site-info.css';
+@import 'sidebar.css';
+@import 'categories.css';
+@import 'links.css';
+@import 'margins.css';
+@import 'sections.css';
+@import 'search.css';

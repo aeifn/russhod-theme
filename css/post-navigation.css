@@ -1,0 +1,11 @@
+.post-navigation {
+	padding: 20px;
+}
+
+.post-navigation .meta-nav {
+	display: none;
+}
+
+.post-navigation .nav-links {
+	margin-top: 10px;
+}

@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#e3d4b5;
+	width:100%;
+}
+
+/* Правило хорошего тона */
+a {
+	text-decoration:underline !important;
+	color:#0000ff;
+}
+a:visited {
+	color:#a400a4;
+}
+a:hover {
+	color:#ff0000;
+}
+
+p {
+	margin-top:10px;
+}
+
+ol, ul {
+	padding-left: 20px;
+}
+
+/*h2 {
+    padding-bottom:5px;
+}
+*/
+
+.screen-reader-text {
+	display:none;
+}
+
+
+

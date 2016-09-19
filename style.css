@@ -1,5 +1,5 @@
 /*
-  Theme Name:   Twenty Sixteen Child
+  Theme Name:   Russhod Theme
   Theme URI:    http://russhod.ru/
   Description:  Twenty Sixteen Child Theme for site russhod.ru
   Author:       Egor Kuzmichev
@@ -12,18 +12,4 @@
   Text Domain:  twenty-sixteen-child
 */
 
-
-@import url('css/header.css');
-@import url('css/content.css');
-@import url('css/footer.css');
-
-/* Technical declarations */
-*{
-	margin:0;
-	padding:0;
-}
-
-body {
-	background:url(images/sidebar-bg.png) left top;
-	width:100%;
-}
+@import url(css/main.css);

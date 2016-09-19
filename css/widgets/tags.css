@@ -1,0 +1,20 @@
+.tagcloud {
+
+	font-size:12px;
+}
+.tagcloud a {
+/*    border:1px dashed;
+ */
+	background:#fff;
+	border-radius:2px;
+	opacity:.6;
+	color:#ccc;
+    white-space:nowrap;
+    padding:3px;
+    margin:2px;
+    display:inline-block;
+}
+
+.tagcloud a:hover {
+	opacity:1;
+}

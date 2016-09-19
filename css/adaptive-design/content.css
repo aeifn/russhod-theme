@@ -1,0 +1,61 @@
+/* Adaptive design for Content-area */
+/* =============================================================
+* CONTENTAREA ADAPTIVE LAYOUT
+*/
+
+@media all and (min-width:1000px) {
+
+	/* Content area options */
+	.content-area{
+		margin-left:250px;
+		margin-right:250px;
+	}
+
+	/* Left sidebar */
+	#secondary {
+		position: absolute;
+		width: 250px;
+		top:0
+	}
+
+	/* Right sidebar */
+	#third {
+		position: absolute;
+		width: 250px;
+		top:0;
+		right: 0;
+	}
+
+}
+
+
+@media all and (max-width:1000px) {
+	/* Content area options */
+	.content-area{
+		margin-left:250px;
+	}
+
+	/* Left sidebar */
+	#secondary {
+		position: absolute;
+		width: 250px;
+		top:0
+	}
+
+	/* Right sidebar */
+	#third {
+		position: relative;
+		width:100%;
+	}
+}
+
+@media all and (max-width:640px) {
+	.content-area {
+		margin:0;
+	}
+
+	#secondary, #third {
+		position:relative;
+		width:100%;
+	}
+

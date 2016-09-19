@@ -1,0 +1,10 @@
+.site-info {
+	padding:25px;
+	font-size:12px;
+}
+
+.site-info .site-title {
+	font-weight:bold;
+	display: inline-block;
+	width:200px;
+}

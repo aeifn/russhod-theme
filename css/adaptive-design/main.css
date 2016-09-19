@@ -1,0 +1,17 @@
+
+
+/* Adaptive design */
+/* ==========================================================================*/
+/*
+* There are several resolutions used as gradations:
+* <1050
+* <700
+* <400
+*/
+
+@import url('header.css');
+@import url('content.css');
+
+
+
+

@@ -1,14 +1,11 @@
-@import "widgets/left-menu.css";
+@import "left-menu.css";
+@import "tags.css";
+@import "search.css";
+
+@import url(areas/content-bottom-widgets.css);
+
 /* WIDGETS */
-.widget {
-	background:url('../images/widget-header-bg.jpg') top left repeat-x;
-	margin-top:10px;
-	padding:25px 15px;
-}
 
-.widget_categories {
-
-}
 
 .widget_categories .widget-title {
 	display:none;
@@ -56,10 +53,10 @@
 }
 
 .search-form {
-	background: #dab878;
-	border:3px solid #fcf7e5;
-	border-radius:5px;
 	padding:5px;
+}
+.search-submit{
+	display:none;
 }
 .screen-reader-text {
 }
@@ -69,9 +66,6 @@
 
 .calendar_wrap {
 	text-align:center;
-	background: #dab878;
-	border:3px solid #fcf7e5;
-	border-radius:5px;
 	padding:10px;
 }
 

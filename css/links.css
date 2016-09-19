@@ -1,0 +1,23 @@
+.widget_links {
+	font-size:10pt;
+}
+.widget_links ul {
+	padding-left:10px;
+	list-style:none;
+}
+
+.widget_links ul li {
+	padding-top:15px;
+	clear:both;
+}
+
+.widget_links a {
+
+}
+
+.widget_links img {
+	float:left;
+	padding-right: 5px;
+}
+
+
